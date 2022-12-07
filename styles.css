@@ -1,0 +1,73 @@
+body {
+    overflow-x: hidden;
+    font-family: montserrat;
+    background-color:lightyellow ;
+    
+}
+
+
+.navbar {
+    background:rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand img{
+    height: 2rem;
+}
+
+.video-background{
+    position:relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+    
+
+.caption{
+    position:absolute;
+    top:38%;
+    width:100%;
+    color:white;
+}
+
+.caption h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: .1rem;
+}
+
+.caption h3{
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom:1.6rem;
+}
+
+.btn-lg{
+    border-width:medium;
+    font-size: 1.1rem;
+}
+
+.youtube{
+    padding-top:3rem;
+    padding-right:3rem;
+    padding-left:3rem;
+
+}
+
+@media (max-width: 768px){
+    .caption h1{
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        padding-bottom: .05rem;
+    }
+    
+    .caption h3{
+        padding-bottom:.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .btn-lg{
+        font-size: .6rem;
+    }
+
+}
